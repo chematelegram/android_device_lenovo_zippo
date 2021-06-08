@@ -9,3 +9,9 @@ $(call inherit-product-if-exists, vendor/lenovo/zippo/zippo-vendor.mk)
 
 # sm8150-common
 $(call inherit-product, device/lenovo/sm8150-common/common.mk)
+
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_FACE_UNLOCK := true
+PRODUCT_PACKAGES += \
+    FaceUnlockService
