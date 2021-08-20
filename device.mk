@@ -4,10 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
-
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_tavil.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tavil.xml \
@@ -24,6 +20,11 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_FACE_UNLOCK := true
 PRODUCT_PACKAGES += \
     FaceUnlockService
+
+# Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.0-service.multihal \
+    android.hardware.sensors@2.0-ScopedWakelock.vendor
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
