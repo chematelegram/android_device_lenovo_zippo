@@ -15,9 +15,6 @@
      for different hardware and product builds.  Do not translate. -->
      
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Whether device has notification LED -->
-    <bool name="config_hasNotificationLed">false</bool>
-
      <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false" >
     <!--
