@@ -7,6 +7,7 @@
 $(call inherit-product, device/lenovo/zippo/device.mk)
 
 # Inherit some common EvolutionX stuff.
+EVO_BUILD_TYPE := OFFICIAL
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
