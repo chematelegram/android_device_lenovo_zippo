@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-   Snap
+    GCamGOPrebuilt-V3
 
 # FM
 PRODUCT_PACKAGES += \
