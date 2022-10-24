@@ -27,7 +27,6 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_CONFIG := lineage_zippo_defconfig
   TARGET_KERNEL_SOURCE := kernel/lenovo/sm8150
-  TARGET_KERNEL_CLANG_VERSION := proton
 endif
 
 # Fingerprint
