@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    GCamGOPrebuilt-V3
+    Aperture
 
 # FM
 PRODUCT_PACKAGES += \
