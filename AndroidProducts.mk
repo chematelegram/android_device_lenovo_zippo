@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_zippo.mk
+    $(LOCAL_DIR)/bootleg_zippo.mk
+
+COMMON_LUNCH_CHOICES := \
+    bootleg_zippo-user \
+    bootleg_zippo-userdebug \
+    bootleg_zippo-eng
