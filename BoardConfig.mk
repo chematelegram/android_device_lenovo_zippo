@@ -24,11 +24,9 @@ BOARD_HAVE_QCOM_FM := true
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-  TARGET_KERNEL_CONFIG := lineage_zippo_defconfig
-  TARGET_KERNEL_SOURCE := kernel/lenovo/sm8150
-  TARGET_KERNEL_CLANG_VERSION := trb
-endif
+TARGET_KERNEL_CONFIG := lineage_zippo_defconfig
+TARGET_KERNEL_SOURCE := kernel/lenovo/sm8150
+TARGET_KERNEL_CLANG_VERSION := trb
 
 # Fingerprint
 SOONG_CONFIG_LENOVO_MSMNILE_FOD_POS_X = 450
