@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "device_lenovo_sm8150-common",
+    "target_path": "device/lenovo/sm8150-common"
+  },
+  {
+    "repository": "vendor_lenovo",
+    "target_path": "vendor/lenovo"
+  },
+  {
+    "repository": "kernel_lenovo_sm8150",
+    "target_path": "kernel/lenovo/sm8150"
+  },
+  {
+    "repository": "varunhardgamer/trb_clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-trb",
+    "branch": "17",
+    "remote": "gitlab"
+  }
+]
