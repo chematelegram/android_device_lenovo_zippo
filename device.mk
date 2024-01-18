@@ -36,8 +36,13 @@ PRODUCT_PACKAGES += \
     qcom.fmradio
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
+PRODUCT_PACKAGES += \
+    ApertureResZippo \
+    FrameworksResZippo \
+    SettingsResZippo \
+    SystemUIResZippo
 
 # Sensors
 PRODUCT_PACKAGES += \
